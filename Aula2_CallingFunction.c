@@ -1,3 +1,5 @@
+/* 1º METODO - Sala de Aula */
+
 #include <stdio.h>
 
 int saudacao(){
@@ -10,9 +12,30 @@ int main(){
 }
 
 
+/* 2º METODO - Tentativa e Erro em Casa */
+
+char saudacao(char v1[]){
+
+	printf("\n\nSua Saudacao foi: %s",v1);
+	
+}
+
+char main(){
+	
+	char c[100];
+	
+	printf("\nDigita uma saudacao:");
+	scanf("%[^\n]s",c);
+	
+		saudacao(c);
+    	return 0;
+}
 
 
-/*int saudacao(char);
+
+/* 1ª Ideia do Programa */
+/*
+int saudacao(char);
 
 void main(){
 
@@ -24,10 +47,11 @@ c = saudacao()
 
     }
 
-
-        //meu codigo acima
-        // DEPOIS TENTAR FAZER TESTE JEITO AQUI
-        //codigo da internet abaixo
+*/
+        //Meu Codigo Acima <- Ideia
+        // DEPOIS TENTAR FAZER DESTE JEITO AQUI(Em casa).
+        //codigo da internet abaixo, para servir como base para "puxar argumento"
+/*
 #include<stdio.h>
 #include<conio.h>
 
