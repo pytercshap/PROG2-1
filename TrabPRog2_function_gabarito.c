@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 
-void batedeira();
+void function();
 
 int main(){
 
@@ -23,13 +23,13 @@ int main(){
 	scanf("%d",&valor2);
 
 
-	batedeira(&nome1,&nome2,&valor1,&valor2);
+	function(&nome1,&nome2,&valor1,&valor2);
 
 	return 0;
 
 }
 
-void batedeira(char *n1, char *n2, int *v1, int *v2){
+void function(char *n1, char *n2, int *v1, int *v2){
 
 	char troca1[50], troca2[50], aux[100];
 	int i, tamanho_nome1=0, tamanho_nome2=0, calculo1=0, calculo2=0;
